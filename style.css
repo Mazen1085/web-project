@@ -2,8 +2,7 @@ body{
     background-image:url("audiojpg.jpg");
 }
 h1{
-    color:black;
-    background-color: coral;
+    color:rgb(206, 240, 102);
     font-family:serif;
     font-size: 20px;
    
