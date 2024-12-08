@@ -1,13 +1,9 @@
-body{ 
-    background-image:url("audiojpg.jpg");
-    color :gold
-}
-h1{
-    color:rgb(206, 240, 102);
-    font-family:serif;
-    font-size: 20px;
-   
-}
-label{
+/* General Styles */
+body {
+    background-image: url("audiojpg.jpg");
+    background-size: cover;
     color: gold;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
