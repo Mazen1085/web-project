@@ -21,3 +21,13 @@ label {
     color: gold;
     font-weight: bold;
 }
+
+/* Input Styles */
+input[type="text"], select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid gold;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
