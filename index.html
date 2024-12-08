@@ -1,57 +1,67 @@
-<html>
-    <head></head>
-    <body>
-        <table border="1" width ="615" cellpadding =3   >
-            <tr>
-                <td rowspan="2" width ="340" >
-                    <form method="post" action="https://www.w3schools.com/">
-                        <label style="margin-right: 50px;">Name:</label>      
-                        <input type="text" name="username" size="30" maxlength="50" required="required" style="margin-bottom: 10px;"><br>            
-                        <label style="margin-right: 36px;">Address:</label>   
-                        <input type="text" name="address" size="30" maxlength="100" required="required" style="margin-bottom: 10px;"><br>
-                        <label style="margin-right: 60px;">City:</label>    
-                        <input type="text" name="city" size="30" maxlength="100" required="required" style="margin-bottom: 10px;"><br>
-                        <label for="state" style="margin-right: 56px;">State:</label>     
-                        <input type="text" name="state" size="20" maxlength="100" required="required" style="margin-bottom: 10px;"><br>
-                        <label style="margin-right: 65px;">Zip:</label>       
-                        <input type="text" name="zip" size="20" maxlength="100" required="required" style="margin-bottom: 10px;"><br>
-                        <label style="margin-right: 24px;">Magazine:</label>  
-                        <select name="magazine" style="width: 169px;">
-                            <option value="Newsweek">Newsweek</option>
-                            <option value="Environment">Environment</option>
-                            <option value="Motor Trend">Motor Trend</option>
-                            <option value="Aviation Week & Space Technology">Aviation Week & Space Technology</option>
-                            <option value="Motor Trend">Motor Trend</option>
-                            <option value="The Economist">The Economist</option>
-                        </select><br>
-                        <label>Subscription:</label><br>
-                        <input type="radio" name="subscription" value="1 year" checked> 1 year
-                        <input type="radio" name="subscription" value="2 year" style="margin-bottom: 10px;"> 2 year
-                        <br>
-                        <input type="submit" name="submit" value="Send Your Order">
-                    </form>
-                </td>
-                <td style="vertical-align: top;" >
-                    <p align="center" style="margin-top: 0; margin-bottom: 0"><b>Random Names</b></p>
-                    <table align="center" width="250" height ="150" border="1">
-                        <tr>
-                            <td align ="center">J.Doe</td>
-                            <td align ="center">P.Day</td>
-                        </tr>
-                        <tr>
-                            <td align ="center">R.Bob</td>
-                            <td align ="center">T.Sam</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2" align="center">Contact me for details</td>
-                        </tr>
-                    </table>
-                
-                </td>
-            </tr >
-            <tr>
-                <td style="height:150px" >HELLO</td>
-            </tr>
-        </table>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" width ="615" cellpadding =3   >
+        <tr>
+            <td rowspan="2" width ="340" >
+                <h1 align ="center">Store</h1>
+                <form method="post" action="https://www.w3schools.com/">
+                <label style="margin-right: 50px;">Name:</label>
+                <input type="text" name="username" size="30" maxlength="50" required="required" style="margin-bottom: 10px;">
+                <br>
+                <label style="margin-right: 36px;">Address:</label>
+                <input type="text" name="address" size="30" maxlength="100" required="required" style="margin-bottom: 10px;">
+                <br>
+                <label style="margin-right: 60px;">City:</label>
+                <input type="text" name="city" size="30" maxlength="100" required="required" style="margin-bottom: 10px;">
+                <br>
+                <label for="state" style="margin-right: 56px;">State:</label>     
+                <input type="text" name="state" size="20" maxlength="100">
+                <br><br>
+                <label style="margin-right: 65px;">Zip:</label>       
+                <input type="text" name="zip" size="20" maxlength="100" required="required" style="margin-bottom: 10px;"><br><br>
+                <label style="margin-right: 24px;">Magazine:</label>  
+                <select name="magazine" style="width: 169px;">
+                    <option value="Newsweek">Newsweek</option>
+                    <option value="Environment">Environment</option>
+                    <option value="Motor Trend">Motor Trend</option>
+                    <option value="Aviation Week & Space Technology">Aviation Week & Space Technology</option>
+                    <option value="Motor Trend">Motor Trend</option>value="The Economist">The Economist</option>
+                </select><br><br>
+                <label>Gender:&nbsp;&nbsp;&nbsp;</label>
+                <input type="radio" name="subscription" value="male" checked>male
+                <input type="radio" name="subscription" value="female" style="margin-bottom: 10px;"> female 
+                <br><br>
+                <input type="submit" name="submit" value="Send Your Order">
+                <br>
+                </form>
+            </td>
+            <td style="vertical-align: top;" >
+                <p align="center" style="margin-top: 4px; margin-bottom: 10px"><b>Our Names</b></p>
+                <table align="center" width="250" height ="150" border="1">
+                    <tr>
+                        <td align ="center">Mazen</td>
+                        <td align ="center">Oraby</td>
+                    </tr>
+                    <tr>
+                        <td align ="center">Ahmed</td>
+                        <td align ="center">Eid</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style ="margin:5px;padding:15px"  align="center">Contact US for details</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">mazenoraby@gmail.com</td>
+                    </tr>
+                    <tr>
+                    <td colspan="2" align="center">AhmedEid@gmail.com</td>
+                    </tr>
+                </table>
+</body>
 </html>
