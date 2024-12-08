@@ -12,6 +12,7 @@ body {
 h1 {
     color: rgb(206, 240, 102);
     font-family: 'Georgia', serif;
+    font-size: 20px;
     font-size: 24px;
     text-align: center;
     margin: 20px 0;
