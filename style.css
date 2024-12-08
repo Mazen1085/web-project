@@ -1,22 +1,25 @@
-/* General Styles */
-body {
-    background-image: url("audiojpg.jpg");
-    background-size: cover;
-    color: gold;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+
+/* Table Styles */
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 80%;
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid gold;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Header Styles */
 h1 {
     color: rgb(206, 240, 102);
     font-family: 'Georgia', serif;
-    font-size: 20px;
     font-size: 24px;
     text-align: center;
     margin: 20px 0;
 }
+
 /* Label Styles */
 label {
     color: gold;
@@ -44,6 +47,22 @@ input[type="submit"] {
     font-size: 16px;
     transition: background-color 0.3s;
 }
+
 input[type="submit"]:hover {
     background-color: darkgoldenrod;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    table {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    input[type="text"], select {
+        width: calc(100% - 15px);
+    }
 }
