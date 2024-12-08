@@ -16,3 +16,8 @@ h1 {
     text-align: center;
     margin: 20px 0;
 }
+/* Label Styles */
+label {
+    color: gold;
+    font-weight: bold;
+}
